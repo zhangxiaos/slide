@@ -1,0 +1,25 @@
+{
+  "name": "slide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangxiaos/slide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangxiaos/slide/issues"
+  },
+  "homepage": "https://github.com/zhangxiaos/slide#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minify": "^0.0.14",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}
