@@ -10,13 +10,13 @@
 <script type="text/javascript" src="./slide.min.js"></script>
 <script>
      var slide = new Slide({
-       container: document.querySelector('.pages'), // 轮播容器
-       direction: 'X', // 方向
-       threshold: 50, // 滑动距离阈值，默认为50
-        slideEnd: function(pre, cur) { // 滑动结束的callback
-          console.log(pre, cur);
-        }
-      });
+         container: document.querySelector('.pages'), // 轮播容器
+         direction: 'X', // 方向
+         threshold: 50, // 滑动距离阈值，默认为50
+         slideEnd: function(pre, cur) { // 滑动结束的callback
+             console.log(pre, cur);
+         }
+     });
 </script>
 ```
 
