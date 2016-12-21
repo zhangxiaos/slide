@@ -5,7 +5,10 @@
 ## 使用方法
 
 
-```javascript
+
+```html
+<script type="text/javascript" src="./slide.min.js"></script>
+<script>
      var pages = new Slide({
        container: document.querySelector('.pages'), // 轮播容器
        direction: 'X', // 方向
@@ -14,6 +17,7 @@
           console.log(pre, cur);
         }
       });
+</script>
 ```
 
 
