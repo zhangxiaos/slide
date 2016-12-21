@@ -4,13 +4,17 @@
 
 ## 使用方法
 
-      var pages = new Slide({
+
+```javascript
+     var pages = new Slide({
        container: document.querySelector('.pages'), // 轮播容器
        direction: 'X', // 方向
         slideEnd: function(pre, cur) { // 滑动结束的callback
           console.log(pre, cur);
         }
       });
+```
+
 
 ##API
 
@@ -21,6 +25,8 @@
 - `container`：String，容器包裹，默认值`.slider`
 
 - `direction`：String，滑动方向，默认值`X`横向滑动；若设置为`Y`，则为纵向滑动
+
+- `threshold`：Number，滑动距离阈值，默认值`50`，当按住屏幕滑动超过此距离，松开手时，自动滑到下一屏，否则不滑动
 
 ###事件
 
